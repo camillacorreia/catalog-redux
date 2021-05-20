@@ -1,0 +1,5 @@
+{
+  "terminal.integrated.environmentChangesRelaunch": false,
+  "terminal.integrated.experimentalUseTitleEvent": true,
+  "terminal.integrated.tabs.location": "left"
+}
