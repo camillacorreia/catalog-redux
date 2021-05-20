@@ -9,12 +9,13 @@ export interface IProduct {
   title: string;
   price: number;
 }
-export 
-interface ICartItem {
+
+export interface ICartItem {
   product: IProduct;
   quantity: number;
 }
 
 export interface ICartState {
   items: ICartItem[];
+  failureStockCheck: number[];
 }
